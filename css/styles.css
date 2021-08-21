@@ -19,8 +19,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
@@ -55,7 +55,7 @@ h6 {
   margin-left: auto;
 }
 .logo {
-  margin-right: 93px;
+  margin: 25px 93px 25px 215px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -100,15 +100,16 @@ h6 {
 
 /* рішення для бізнесу */
 .article {
-  /* color: var(--primary-bg-color); */
-  margin-top: 225px;
+  color: var(--primary-bg-color);
 
+  padding: 200px 452px 0px 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
 }
 .section-article {
   background: #2f303a;
+  width: 1600px;
   height: 600px;
 }
 .article,
@@ -120,6 +121,7 @@ h6 {
   cursor: pointer;
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  margin: 30px 0px 0px 700px;
   border-radius: 4px;
   min-width: 200px;
   padding: 10px 32px;
@@ -135,6 +137,15 @@ h6 {
   font-weight: bold;
   letter-spacing: 0.03em;
 }
+.solutions-item:not(:last-child) {
+  margin-right: 30px;
+}
+.solutions {
+  display: flex;
+  margin-left: 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .content {
   color: var(--title-text-color);
 }
@@ -143,11 +154,35 @@ h6 {
   font-size: 36px;
   line-height: 1.16;
 }
+.work-section {
+  padding-bottom: 94px;
+}
+.work-article {
+  margin-left: 400px;
+}
+.work-list {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 215px;
+}
+.item-work:not(:last-child) {
+  margin-right: 30px;
+}
 /* наша команда */
 .team {
+  display: flex;
+  padding-bottom: 94px;
+  margin-left: 215px;
+  margin-top: 50px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+.team-article {
+  margin-left: 400px;
+}
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 .teammate {
   color: var(--pimary-text-color);
@@ -160,8 +195,21 @@ h6 {
 .address {
   line-height: 1.74;
   letter-spacing: 0.03em;
+  padding-top: 20px;
 }
-
+.footer-list {
+  margin-left: 215px;
+  padding-bottom: 60px;
+}
+.footer-item:not(:last-child) {
+  padding-bottom: 9px;
+}
+/* .footer {
+  background-color: #2f303a;
+} */
+/* .studio {
+  color: #ffffff;
+} */
 /* портфоліо сторінка */
 .portfolio-primary {
   color: var(--accent-color);
