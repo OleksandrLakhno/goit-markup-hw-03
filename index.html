@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,43 +14,51 @@
     <link rel=“preconnect” href=“https://fonts.gstatic.com”>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <!--Шапка сторінки-->
-    <header>
-        <a href="" class="logo"><span class="web">Web</span>Studio</a>
-        <!---Навігація-->
-        <nav>
-            <ul class="site-nav list">
-                <li>
-                    <a class="studio-primary" href="">Студія</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="link">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="" class="link">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="nav-link list">
-            <li>
-                <a href="mailto:info@devstudio.com" class="link-nav" >info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="link-nav">+380961111111</a>
-            </li>
-        </ul>
+    <header class="header">
+        <div class=container-nav>
+            <a href="" class="logo"><span class="web">Web</span>Studio</a>
+            <!---Навігація-->
+            <nav>
+                <ul class="site-nav list">
+                    <li>
+                        <a class="studio-primary item" href="">Студія</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="link item">Портфоліо</a>
+                    </li>
+                    <li>
+                        <a href="" class="link item">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <ul class="nav-link list">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="link-nav">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111" class="link-nav">+380961111111</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <!--Рішення для бізнесу-->
-        <section>
-            <h1 class="article">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="article-button">Замовити послугу</button>
+        <section class="section-article">
+            <div>
+                <h1 class="article">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="article-button">Замовити послугу</button>
+            </div>
         </section>
         <!--Самі рішення-->
         <section>
@@ -89,7 +98,8 @@
                     <img src="./img/img.jpg" alt="Людина набирає текст на клавіатурі" width="370" height="294">
                 </li>
                 <li>
-                    <img src="./img/img(1).jpg" alt="Людина тримає телефон і рука лежить на клавіатурі ноутбука" width="370" height="294">
+                    <img src="./img/img(1).jpg" alt="Людина тримає телефон і рука лежить на клавіатурі ноутбука"
+                        width="370" height="294">
                 </li>
                 <li>
                     <img src="./img/img(2).jpg" alt="Людина працює з планшетом" width="370" height="294">
@@ -101,25 +111,25 @@
         <section>
             <h2 class="team-article accent primary">Наша команда</h2>
             <ul class="team list">
-                    <li>
-                        <img src="./img/img(3).jpg" alt="Фото чоловіка в окулярах" width="270" height="260">
-                         <h3 class="teammate">Ігор Демяненко</h3>
-                         <p class="person-work">Product Designer</p>
-                    </li>
-                    <li>
-                        <img src="./img/img(4).jpg" alt="Жінка" width="270" height="260">
-                        <h3 class="teammate">Ольга Репина</h3>
-                        <p class="person-work">Frontend Developer</p>
-                    </li>
-                    <li>
-                        <img src="./img/img(5).jpg" alt="Чоловік в блій рубашці" width="270" height="260">
-                        <h3 class="teammate">Миколай Тарасов</h3>
-                        <p class="person-work">Marketing</p>
-                    </li>
                 <li>
-                        <img src="./img/img(6).jpg" alt="Чоловік в чорній футболці і окулярах"width="270" height="260">
-                        <h3 class="teammate">Михайло Єрмаков</h3>
-                        <p class="person-work">UI Designer</p>
+                    <img src="./img/img(3).jpg" alt="Фото чоловіка в окулярах" width="270" height="260">
+                    <h3 class="teammate">Ігор Демяненко</h3>
+                    <p class="person-work">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./img/img(4).jpg" alt="Жінка" width="270" height="260">
+                    <h3 class="teammate">Ольга Репина</h3>
+                    <p class="person-work">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./img/img(5).jpg" alt="Чоловік в блій рубашці" width="270" height="260">
+                    <h3 class="teammate">Миколай Тарасов</h3>
+                    <p class="person-work">Marketing</p>
+                </li>
+                <li>
+                    <img src="./img/img(6).jpg" alt="Чоловік в чорній футболці і окулярах" width="270" height="260">
+                    <h3 class="teammate">Михайло Єрмаков</h3>
+                    <p class="person-work">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -128,13 +138,14 @@
     <footer>
         <a href="" class="logo"><span class="web">Web</span>Studio</a>
         <address>
-           <ul class="list">
-               <li class="address">м.Київ пр-т Лесі Українки,26</li>
-               <li class="nav-link"><a  href="mailto:info@example.com" >info@example.com</a></li>
-               <li class="nav-link"><a href="tel:+380991111111" >+38 099 111 11 11</a></li>
-           </ul>
+            <ul class="list">
+                <li class="address">м.Київ пр-т Лесі Українки,26</li>
+                <li class="nav-link"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="nav-link"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
         </address>
     </footer>
-    
+
 </body>
-</html> 
+
+</html>
