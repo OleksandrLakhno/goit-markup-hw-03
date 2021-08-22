@@ -19,6 +19,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 h1,
@@ -26,7 +27,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -40,12 +42,12 @@ h6 {
 }
 .item {
   display: block;
-  margin-left: 50px;
+  padding-left: 94px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 .link-nav {
-  margin-left: 50px;
+  padding-left: 50px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -55,7 +57,7 @@ h6 {
   margin-left: auto;
 }
 .logo {
-  margin: 25px 93px 25px 215px;
+  padding: 25px 0px 25px 0px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -234,7 +236,6 @@ h6 {
   padding-top: 20px;
 }
 .footer-list {
-  margin-left: 215px;
   padding-bottom: 60px;
 }
 .footer-item:not(:last-child) {
@@ -258,23 +259,52 @@ h6 {
   color: var(--primary-bg-color);
   border-radius: 4px;
 }
-.btn-one {
+.filters {
+  display: flex;
+  padding-top: 94px;
+  padding-left: 295px;
+}
+.btn-all {
   min-width: 73px;
   padding: 6px 22px;
+  margin-right: 8px;
 }
-.btn-two {
+.btn-website {
   min-width: 128px;
   padding: 6px 22px;
+  margin-right: 8px;
 }
-.btn-thre {
+.btn-apps {
   min-width: 145px;
   padding: 6px 22px;
+  margin-right: 8px;
 }
-.btn-four {
+.btn-design {
   min-width: 103px;
   padding: 6px 22px;
+  padding-right: 8px;
 }
-.btn-five {
+.btn-marketing {
   width: 130px;
   padding: 6px 22px;
+}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.first-section-title {
+  padding-top: 20px;
+  padding-left: 24px;
+}
+.first-conten {
+  padding-top: 4px;
+  padding-left: 24px;
+}
+.third-section {
+  display: flex;
+}
+.footer-logo {
+  display: flex;
+  margin-top: 154px;
 }
