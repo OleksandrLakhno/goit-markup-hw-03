@@ -188,6 +188,42 @@ h6 {
   color: var(--pimary-text-color);
   font-weight: 500;
 }
+.igor {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.igor-work {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.olga {
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.olga-work {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 70px;
+}
+.mikola {
+  padding-top: 30px;
+  padding-left: 67px;
+}
+.mikola-work {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 97px;
+}
+.mix {
+  padding-top: 30px;
+  padding-left: 68px;
+}
+.mix-work {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 92px;
+}
 .person-work {
   color: var(--title-text-color);
 }
