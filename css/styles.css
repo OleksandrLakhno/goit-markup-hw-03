@@ -25,9 +25,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
   padding: 0;
@@ -104,14 +101,13 @@ p {
 .article {
   color: var(--primary-bg-color);
 
-  padding: 200px 452px 0px 452px;
+  padding: 200px 288px 0px 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
 }
 .section-article {
   background: #2f303a;
-  width: 1600px;
   height: 600px;
 }
 .article,
@@ -123,7 +119,7 @@ p {
   cursor: pointer;
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
-  margin: 30px 0px 0px 700px;
+  margin: 30px 0px 0px 485px;
   border-radius: 4px;
   min-width: 200px;
   padding: 10px 32px;
@@ -144,7 +140,6 @@ p {
 }
 .solutions {
   display: flex;
-  margin-left: 215px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -155,33 +150,30 @@ p {
 .primary {
   font-size: 36px;
   line-height: 1.16;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 .work-section {
   padding-bottom: 94px;
 }
-.work-article {
-  margin-left: 400px;
-}
 .work-list {
   display: flex;
   margin-top: 50px;
-  margin-left: 215px;
 }
-.item-work:not(:last-child) {
-  margin-right: 30px;
+.item-work {
+  margin-left: auto;
 }
 /* наша команда */
 .team {
   display: flex;
   padding-bottom: 94px;
-  margin-left: 215px;
   margin-top: 50px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .team-article {
-  margin-left: 400px;
+  margin: 0 auto;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -234,6 +226,10 @@ p {
   line-height: 1.74;
   letter-spacing: 0.03em;
   padding-top: 20px;
+  color: var(--primary-bg-color);
+}
+.footer-nav {
+  color: color: rgba(255, 255, 255, 0.6);;
 }
 .footer-list {
   padding-bottom: 60px;
@@ -241,13 +237,13 @@ p {
 .footer-item:not(:last-child) {
   padding-bottom: 9px;
 }
-/* .footer {
+.footer {
   background-color: #2f303a;
-} */
-/* .studio {
-  color: #ffffff;
-} */
-/* портфоліо сторінка */
+}
+.studio {
+  color: var(--primary-bg-color);
+}
+/* --------портфоліо сторінка-------- */
 .portfolio-primary {
   color: var(--accent-color);
 }
@@ -282,11 +278,11 @@ p {
 .btn-design {
   min-width: 103px;
   padding: 6px 22px;
-  padding-right: 8px;
 }
 .btn-marketing {
   width: 130px;
   padding: 6px 22px;
+  margin-left: 8px;
 }
 .first-section {
   display: flex;
