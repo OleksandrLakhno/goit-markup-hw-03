@@ -54,12 +54,14 @@ p {
   margin-left: auto;
 }
 .logo {
-  padding: 25px 0px 25px 0px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+}
+.logo-header{
+padding: 25px 0px 25px 0px;
 }
 .web {
   color: var(--accent-color);
@@ -166,7 +168,7 @@ p {
 /* наша команда */
 .team {
   display: flex;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
   margin-top: 50px;
   font-size: 16px;
   line-height: 1.18;
@@ -222,6 +224,7 @@ p {
   color: var(--title-text-color);
 }
 /* футер */
+}
 .address {
   line-height: 1.74;
   letter-spacing: 0.03em;
@@ -229,17 +232,27 @@ p {
   color: var(--primary-bg-color);
 }
 .footer-nav {
-  color: color: rgba(255, 255, 255, 0.6);
+  color: color:  rgba(255, 255, 255, 0.6);
 }
 .footer-list {
   padding-bottom: 60px;
 }
-.footer-item:not(:last-child) {
-  padding-bottom: 9px;
+.footer-item {
+  color: var(--primary-bg-color);
+  margin-bottom: 9px;
+}
+.footer-item:last-child{
+  margin: 0;
 }
 .footer {
   background-color: #2f303a;
 }
+.footer-logo {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .studio {
   color: var(--primary-bg-color);
 }
@@ -299,8 +312,4 @@ p {
 }
 .third-section {
   display: flex;
-}
-.footer-logo {
-  display: flex;
-  margin-top: 154px;
 }
