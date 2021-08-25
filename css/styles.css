@@ -40,13 +40,9 @@ p {
 .item {
   display:flex;
   margin-left: 94px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .link-nav {
   margin-left: 50px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .header-right,
 .nav-link {
@@ -85,6 +81,8 @@ padding: 25px 0px 25px 0px;
 }
 .studio-primary {
   color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -93,10 +91,17 @@ padding: 25px 0px 25px 0px;
 
 .link {
   color: var(--pimary-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link :hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+.link-list{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  
 }
 
 /* рішення для бізнесу */
@@ -259,6 +264,9 @@ padding: 25px 0px 25px 0px;
 /* --------портфоліо сторінка-------- */
 .portfolio-primary {
   color: var(--accent-color);
+   padding-top: 24px;
+  padding-bottom: 24px;
+  
 }
 /* фільтри */
 .filters-item:hover,
@@ -297,18 +305,19 @@ padding: 25px 0px 25px 0px;
   padding: 6px 22px;
   margin-left: 8px;
 }
-.first-section {
+.first-section{
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
+.bottom{
+  padding-bottom: 94px;
+}
 .first-section-title {
-  padding-top: 20px;
-  padding-left: 24px;
+ padding: 20px 24px 0px 24px;
 }
 .first-conten {
-  padding-top: 4px;
-  padding-left: 24px;
+  padding: 4px 24px 20px 24px;
 }
 .third-section {
   display: flex;
