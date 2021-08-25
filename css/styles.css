@@ -38,15 +38,15 @@ p {
   display: flex;
 }
 .item {
-  display: block;
-  padding-left: 94px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display:flex;
+  margin-left: 94px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .link-nav {
-  padding-left: 50px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-left: 50px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .header-right,
 .nav-link {
@@ -229,7 +229,7 @@ p {
   color: var(--primary-bg-color);
 }
 .footer-nav {
-  color: color: rgba(255, 255, 255, 0.6);;
+  color: color: rgba(255, 255, 255, 0.6);
 }
 .footer-list {
   padding-bottom: 60px;
