@@ -115,6 +115,7 @@ padding: 25px 0px 25px 0px;
 }
 .section-article {
    background: #2f303a;
+
   height: 600px;
 }
 .article,
@@ -320,4 +321,10 @@ margin-top: 50px;
 }
 .first-section:nth-child(3n){
   margin-right: 0;
+}
+.first-section-title{
+  margin: 20px 24px 0px 24px;
+}
+.first-conten{
+  margin: 20px 24px 20px 24px;
 }
