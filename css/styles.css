@@ -35,6 +35,9 @@ img {
   display: flex;
   align-items: center;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
