@@ -21,32 +21,30 @@
 <body>
     <!--Шапка сторінки-->
     <header class="header">
-        <div class=container-nav>
+        <div class="container container-nav">
             <a href="" class="logo logo-header"><span class="web">Web</span>Studio</a>
             <!---Навігація-->
             <nav>
                 <ul class="site-nav list">
-                    <li class=" item">
+                    <li class="site-nav-item">
                         <a class="studio-primary " href="">Студія</a>
                     </li>
-                    <li class=" item">
+                    <li class="site-nav-item">
                         <a href="./portfolio.html" class="link">Портфоліо</a>
                     </li>
-                    <li class=" item">
+                    <li class="site-nav-item">
                         <a href="" class="link">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <div class="header-right">
-                <ul class="nav-link list">
-                    <li class="link-nav">
-                        <a class="link-list" href="mailto:info@devstudio.com  ">info@devstudio.com</a>
+                <ul class="contacts list">
+                    <li class="contacts-item">
+                        <a class="contacts-link" href="mailto:info@devstudio.com  ">info@devstudio.com</a>
                     </li>
-                    <li class="link-nav" >
-                        <a class="link-list" href="tel:+380961111111 ">+380961111111</a>
+                    <li class="contacts-item" >
+                        <a class="contacts-link" href="tel:+380961111111 ">+380961111111</a>
                     </li>
                 </ul>
-            </div>
         </div>
     </header>
 </body>
@@ -54,13 +52,13 @@
         <!--Рішення для бізнесу-->
         <section class="section-article">
                 <div class="container">
-                    <h1 class="article">Эффективные решения  для вашего бизнеса</h1>
+                    <h1 class="article">Эффективные решения <br> для вашего бизнеса</h1>
                     <button type="button" class="article-button">Заказать услугу</button>
                 </div>
         </section>
         <!--Самі рішення-->
-        <section>
-            <div class="solutions-box">
+        <section class="section">
+            <div class="container">
                 <h2 hidden>Рішення</h2>
                 <ul class="list solutions">
                     <li class="solutions-item">
@@ -91,8 +89,8 @@
             </div>
         </section>
         <!--Чим ми займаємось-->
-        <section>
-            <div class="work-section">
+        <section class="section">
+            <div class="container">
                 <h2 class="work-article accent primary">Чем мы занимаемся</h2>
                 <ul class="list work-list">
                     <li class="item-work">
@@ -110,43 +108,51 @@
 
         </section>
         <!--Наша команда-->
-        <section class="section-team">
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2 class="team-article accent primary">Наша команда</h2>
                 <ul class="team list">
                     <li class="team-item">
                         <img src="./img/img(3).jpg" alt="Фото чоловіка в окулярах" width="270" height="260">
-                        <h3 class="teammate igor">Ігор Демяненко</h3>
-                        <p class="person-work igor-work ">Product Designer</p>
+                        <div class="igor">
+                            <h3 class="teammate ">Ігор Демяненко</h3>
+                            <p class="person-work igor-work ">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./img/img(4).jpg" alt="Жінка" width="270" height="260">
-                        <h3 class="teammate olga">Ольга Репина</h3>
-                        <p class="person-work olga-work">Frontend Developer</p>
+                        <div class="olga">
+                            <h3 class="teammate">Ольга Репина</h3>
+                            <p class="person-work olga-work">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./img/img(5).jpg" alt="Чоловік в блій рубашці" width="270" height="260">
-                        <h3 class="teammate mikola">Миколай Тарасов</h3>
-                        <p class="person-work mikola-work">Marketing</p>
+                        <div class="mikola">
+                            <h3 class="teammate">Миколай Тарасов</h3>
+                            <p class="person-work mikola-work">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="./img/img(6).jpg" alt="Чоловік в чорній футболці і окулярах" width="270" height="260">
-                        <h3 class="teammate mix">Михайло Єрмаков</h3>
-                        <p class="person-work mix-work">UI Designer</p>
+                        <div class="mix">
+                            <h3 class="teammate ">Михайло Єрмаков</h3>
+                            <p class="person-work mix-work">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <!--Футер-->
-    <footer>
-        <div class="footer">
+    <footer class="footer">
+        <div class="container">
             <a href="" class="logo footer-logo logo-zero"><span class="web">Web</span><span class="studio">Studio</span></a>
             <address>
-                <ul class="list footer-list">
+                <ul class="contacts-footer list ">
                     <li class="address footer-item">м.Київ пр-т Лесі Українки,26</li>
-                    <li class="footer-nav nav-link footer-item"><a class="link-color" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="footer-nav nav-link footer-item"><a class="link-color" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li class="footer-nav contacts-item footer-item"><a class="link-color contacts-link-footer" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="footer-nav contacts-item footer-item"><a class="link-color contacts-link-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
         </div>
